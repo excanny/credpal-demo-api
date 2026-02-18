@@ -1,5 +1,5 @@
 {
-  "name": "crud-auth",
+  "name": "234-deals-api",
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
@@ -12,13 +12,16 @@
     "dotenv": "^16.6.1",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.1.1"
+    "mongoose": "^8.1.1",
+    "pg": "^8.18.0",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.5",
     "@types/node": "^20.11.17",
+    "@types/pg": "^8.16.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.3.3"
   }
